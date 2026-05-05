@@ -9,3 +9,34 @@
   font-weight: 400px;
   font-style: normal;
 }
+/* shaird style */
+.display-flex{
+  display: flex;
+}
+.navbar, .bannar{
+  max-width: 1440px;
+}
+
+/* main style */
+.light-color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px;
+}
+.navbar h3{
+  font-size: 48px;
+}
+.nav-list{
+  list-style: none;
+  gap: 30px;
+}
+.nav-lits{
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  line-height: 24px;
+}
