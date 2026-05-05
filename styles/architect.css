@@ -15,6 +15,16 @@
 }
 .navbar, .bannar{
   max-width: 1440px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.btn{
+  font-size: 20px;
+  color: white;
+  background-color: #FF900E;
+  padding: 20px 25px;
+  border-radius: 8px;
+  border: none;
 }
 
 /* main style */
@@ -22,13 +32,13 @@
   background-color: rgba(255, 144, 14, 0.1);
 }
 .navbar{
-  justify-content: space-between;
-  margin: 0 auto;
   align-items: center;
   padding: 10px;
+  margin-bottom: 116px;
 }
-.navbar h3{
-  font-size: 48px;
+.brand{
+  font-size: 2.8rem;
+  font-weight: 700;
 }
 .nav-list{
   list-style: none;
@@ -39,4 +49,31 @@
   color: #424242;
   font-size: 18px;
   line-height: 24px;
+}
+/* bannar releted style */
+.bannar-container{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bannar-title{
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.bannar-contant{
+  font-size: 1rem;
+  color: #727272;
+  margin-bottom: 30px;
+}
+.bannar img{
+  width: 100%;
+  margin-bottom: 130px;
+}
+/* responsive media quary */
+@media screen and (max-width:576px){
+  .navbar,.nav-list{
+    flex-direction: column;
+  }
 }
