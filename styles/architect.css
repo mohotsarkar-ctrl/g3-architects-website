@@ -179,7 +179,7 @@ main > section{
   color: #131313;
   margin-bottom: 24px;
 }
-..fact-contant p{
+.fact-contant p{
   font-size: 1rem;
   line-height: 26px;
   color: #727272;
@@ -262,5 +262,5 @@ main > section{
 }
 /* responsive media quary for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
-  
+ 
 }
